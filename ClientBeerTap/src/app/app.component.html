@@ -1,5 +1,12 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div>
-<button md-fab><md-icon>menu</md-icon></button>
-</div>
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="over" opened="false">Drawer content</md-sidenav>
+  <div class="my-content">
+    <button md-fab (click)="sidenav.toggle()">
+      <md-icon>menu</md-icon>
+    </button>
+
+
+    
+  </div>
+</md-sidenav-container>
 
