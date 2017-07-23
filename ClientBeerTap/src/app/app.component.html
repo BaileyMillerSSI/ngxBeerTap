@@ -1,12 +1,18 @@
 <md-sidenav-container>
-  <md-sidenav #sidenav mode="over" opened="false">Drawer content</md-sidenav>
+  <md-sidenav #sidenav mode="over" opened="false">
+    <img src="../assets/beer.png" width="100px"/>
+    <div>
+      <h1>Beers</h1>
+      
+    </div>
+  </md-sidenav>
   <div class="my-content">
     <button md-fab (click)="sidenav.toggle()">
       <md-icon>menu</md-icon>
     </button>
 
 
-    
+
   </div>
 </md-sidenav-container>
 
