@@ -7,6 +7,13 @@ html, body, material-app, md-sidenav-container {
   height: 100%;
 }
 
+md-sidenav
+{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
 .my-content
 {
     padding: 24px;
