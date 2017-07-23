@@ -8,6 +8,9 @@ import { MaterialsModule } from "./materials.module";
 //Gesture support
 import 'hammerjs';
 
+//Angular Bootstrap
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { AppComponent } from './app.component';
 
 
@@ -18,7 +21,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialsModule
+    MaterialsModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
